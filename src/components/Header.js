@@ -5,7 +5,7 @@ const Header = ({ handle_Submit }) => {
     <div>
       <nav
         className="navbar navbar-expand-lg"
-        style={{ backgroundColor: "#FF8989" }}
+        style={{ backgroundColor: "#9F91CC" }}
       >
         <div className="container-fluid">
           <select
@@ -33,7 +33,7 @@ const Header = ({ handle_Submit }) => {
             style={{ fontFamily: "NHaasGroteskDSPro-65Md" }}
             href="/"
           >
-            Crypto Graph
+            CRYPTO DASHBOARD
           </a>
         </div>
       </nav>
