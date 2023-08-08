@@ -32,7 +32,7 @@ const CardSection = (props) => {
             >
               Market Cap 24Hrs
             </h6>
-            <p className="card-text fw-bold fs-5" style={{ color: "#fcdf03" }}>
+            <p className="card-text fw-bold fs-5" style={{ color: "#9F91CC" }}>
               {props.mCap24} %
             </p>
           </div>
@@ -52,7 +52,7 @@ const CardSection = (props) => {
             >
               All Time High
             </h6>
-            <p className="card-text fw-bold fs-5" style={{ color: "#fcdf03" }}>
+            <p className="card-text fw-bold fs-5" style={{ color: "#9F91CC" }}>
               ${props.ath}
             </p>
           </div>
@@ -72,7 +72,7 @@ const CardSection = (props) => {
             >
               All Time High
             </h6>
-            <p className="card-text fw-bold fs-5" style={{ color: "#fcdf03" }}>
+            <p className="card-text fw-bold fs-5" style={{ color: "#9F91CC" }}>
               ${props.atl}
             </p>
           </div>
@@ -93,7 +93,7 @@ const CardSection = (props) => {
             >
               Positive Sentiments
             </h6>
-            <p className="card-text fw-bold fs-5" style={{ color: "#fcdf03" }}>
+            <p className="card-text fw-bold fs-5" style={{ color: "#9F91CC" }}>
               {props.sentiment} %
             </p>
           </div>
@@ -163,7 +163,7 @@ const CardSection = (props) => {
             fontFamily: "NHaasGroteskDSPro-65Md",
             fontSize: "90px",
             fontWeight: "700",
-            color: "#fcdf03",
+            color: "#9F91CC",
             textDecoration: "none solid rgb(255, 255, 255)",
             textAlign: "center",
           }}
