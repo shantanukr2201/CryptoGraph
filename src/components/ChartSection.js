@@ -23,7 +23,7 @@ const ChartSection = ({
           style: {
             fontSize: "14px",
             fontWeight: "bold",
-            color: "#FCAEAE",
+            color: "#9F91CC",
           },
         },
         stroke: {
@@ -38,7 +38,7 @@ const ChartSection = ({
         yaxis: {
           show: false,
         },
-        colors: ["#FCAEAE"],
+        colors: ["#9F91CC"],
         tooltip: {
           y: {
             formatter: (value) => {
